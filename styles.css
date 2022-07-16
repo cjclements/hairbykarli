@@ -77,6 +77,12 @@ a:hover {
 	cursor: pointer;
 }
 
+.menu-items .logo {
+	position:fixed;
+	top: 0;
+	left: 0;
+}
+
 .navbar .menu-items {
 	position: fixed;
 	top: 0;
