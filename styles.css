@@ -29,3 +29,9 @@ a {
 a:hover {
 	color: #ebc8c7;
 }
+
+.menu-items ul li {
+	margin-bottom: 18px;
+	font-size: 36px;
+	font-weight: 900;
+}
