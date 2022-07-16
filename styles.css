@@ -77,6 +77,21 @@ a:hover {
 	cursor: pointer;
 }
 
+.navbar .menu-items {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	background-color: #ffffff;
+}
+
 .nav-container .hamburger-lines .line1 {
 	transform-origin: 0% 0%;
 	transition: transform 0.25s ease-in-out;
@@ -101,4 +116,13 @@ a:hover {
 
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 	transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+	visibility: visible;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+	opacity: 1;
+	transition:  opacity .7s;
 }
