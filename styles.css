@@ -35,3 +35,7 @@ a:hover {
 	font-size: 36px;
 	font-weight: 900;
 }
+
+.logo a img{
+	height:144px;
+}
