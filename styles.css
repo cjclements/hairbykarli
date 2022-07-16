@@ -64,3 +64,15 @@ a:hover {
 	width: 100%;
 	background: #000000;
 }
+
+.nav-container .checkbox {
+	position: absolute;
+	display: block;
+	height: 40px;
+	width: 40px;
+	top: 6px;
+	right: 11px;
+	z-index: 5;
+	opacity: 0;
+	cursor: pointer;
+}
