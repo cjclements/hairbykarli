@@ -175,6 +175,9 @@ flex-direction: column;
 }
 
 .welcome-info-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	flex: 1;
 	margin: 12px 3vw 0 4.5vw;
 } 
