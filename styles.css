@@ -1,3 +1,12 @@
+:root {
+	--pink: #ecc9c7;
+	--blue: #bcccdc;
+	--green: #dff3ea;
+	--tan: #e1dac9;
+	--link-color: var(--pink);
+	--welcome-color: var(--pink);
+}
+
 @font-face {
 	font-family: bayshore;
 	src: url(../fonts/bayshore.otf);
@@ -27,11 +36,11 @@ ul {
 a {
 	text-decoration: none;
 	transition: .2s ease;
-	color: #000000;
+	color: #000;
 }
 
 a:hover {
-	color: #ebc8c7;
+	color: var(--link-color);
 }
 
 h1 {
@@ -90,7 +99,7 @@ button {
 	display: block;
 	height: 4px;
 	width: 100%;
-	background: #000000;
+	background: #000;
 }
 
 .nav-container .checkbox {
@@ -116,7 +125,7 @@ button {
 	visibility: hidden;
 	overflow: hidden;
 	opacity: 0;
-	background-color: #ffffff;
+	background-color: #fff;
 }
 
 .menu-items {
@@ -182,7 +191,7 @@ flex-direction: column;
 
 .welcome-image-2 img {
 	border: 1.5vw solid white;
-	box-shadow: 1vw 1vw 12px #ebc8c7dd;
+	box-shadow: 1vw 1vw 12px var(--welcome-color);
 }
 
 .welcome-info-container {
@@ -194,4 +203,4 @@ flex-direction: column;
 } 
 
 .welcome-info-container button:hover {
-	border: 2px solid #ebc8c7;
+	border: 2px solid var(--welcome-color);
