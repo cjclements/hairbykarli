@@ -25,7 +25,7 @@ body {
 	flex-direction: column;
 	font-family: Raleway, sans-serif;
 	margin: 0;
-	font-size: 18px
+	font-size: 18px;
 }
 
 ul {
@@ -78,7 +78,7 @@ button {
 	font-weight: 900;
 }
 
-.logo a img{
+.logo a img {
 	height:144px;
 }
 
@@ -200,7 +200,8 @@ flex-direction: column;
 	align-items: center;
 	flex: 1;
 	margin: 12px 3vw 0 4.5vw;
-} 
+}
 
 .welcome-info-container button:hover {
 	border: 2px solid var(--welcome-color);
+}
