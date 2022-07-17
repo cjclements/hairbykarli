@@ -166,9 +166,10 @@ flex-direction: column;
 
 .welcome-image-2 {
 	flex: 1;
-	margin: -10% 0 0 0;
+	margin: -10% 0 0 2vw;
 }
 
 .welcome-info-container {
 	flex: 1;
-}
+	margin: 12px 3vw 0 24px;
+} 
