@@ -47,8 +47,7 @@ h3 {
 	margin: 0;
 }
 
-.button-white-bg,
-.button-color-bg {
+button {
 	padding: 8px 32px;
 	cursor: pointer;
 	font-size: 20px;
@@ -57,14 +56,6 @@ h3 {
 	background-color: #00000000;
 	transition: all ease 0.2s;
 	overflow: hidden;
-}
-
-.button-white-bg:hover {
-	border: 2px solid #ebc8c7;
-}
-
-.button-color-bg:hover {
-	border: 2px solid #fff;
 }
 
 .navbar {
@@ -201,3 +192,6 @@ flex-direction: column;
 	flex: 1;
 	margin: 12px 3vw 0 4.5vw;
 } 
+
+.welcome-info-container button:hover {
+	border: 2px solid #ebc8c7;
