@@ -149,3 +149,25 @@ h3 {
 	opacity: 1;
 	transition:  opacity .7s;
 }
+
+.welcome-container {
+display: flex;
+flex-direction: column;
+}
+
+.welcome-image-1 img,
+.welcome-image-2 img {
+	width: 100%;
+}
+
+.welcome-row-2 {
+	display: flex;
+}
+
+.welcome-image-2 {
+	flex: 1;
+}
+
+.welcome-info-container {
+	flex: 1;
+}
