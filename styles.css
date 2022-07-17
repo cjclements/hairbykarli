@@ -170,8 +170,8 @@ flex-direction: column;
 }
 
 .welcome-image-2 img {
-	border: 10px solid white;
-	box-shadow: 8px 10px 12px #ebc8c7dd;
+	border: 1.5vw solid white;
+	box-shadow: 1vw 1vw 12px #ebc8c7dd;
 }
 
 .welcome-info-container {
