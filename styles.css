@@ -169,6 +169,11 @@ flex-direction: column;
 	margin: -10% 0 0 2vw;
 }
 
+.welcome-image-2 img {
+	border: 10px solid white;
+	box-shadow: 8px 10px 12px #ebc8c7dd;
+}
+
 .welcome-info-container {
 	flex: 1;
 	margin: 12px 3vw 0 24px;
