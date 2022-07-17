@@ -166,6 +166,7 @@ flex-direction: column;
 
 .welcome-image-2 {
 	flex: 1;
+	margin: -10% 0 0 0;
 }
 
 .welcome-info-container {
