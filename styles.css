@@ -6,6 +6,7 @@
 	--link-color: var(--pink);
 	--welcome-color: var(--pink);
 	--mission-color: var(--green);
+	--colab-color: var(--blue);
 	--about-color: var(--blue);
 }
 
@@ -70,6 +71,7 @@ button {
 	background-color: #00000000;
 	transition: all ease 0.2s;
 	overflow: hidden;
+	margin: 20px 0 0 0;
 }
 
 .navbar {
@@ -211,25 +213,38 @@ margin: 0 0 24px 0;
 	margin: 12px 3vw 0 4.5vw;
 }
 
-.welcome-info-container button {
-	margin: 20px 0 0 0;
-}
-
 .welcome-info-container button:hover {
 	border: 2px solid var(--welcome-color);
 }
 
 .info-container {
-	padding: 10px 6vw 16px 6vw;
+	padding: 24px 8vw 36px 8vw;
 }
 
 @media only screen and (min-width: 768px) {
 .info-container {
-	padding: 10px 20vw 16px 20vw;
+	padding: 24px 20vw 36px 20vw;
 }}
 
-.mission {
-	background-color: var(--mission-color);
+.colab {
+background-color: var(--colab-color);
+background-image:url(img/maria-nila-bg.webp);
+display: inline-block;
+background-size: cover;
+background-position: top;
+}
+
+.colab-info-container {
+	background-color: #ffffffcc;
+	padding: 3vw 5vw 5vw 5vw;
+	margin: 10vw 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.colab-info-container button:hover {
+	border-color: var(--colab-color);
 }
 
 .about {
