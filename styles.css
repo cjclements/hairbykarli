@@ -205,3 +205,7 @@ flex-direction: column;
 .welcome-info-container button:hover {
 	border: 2px solid var(--welcome-color);
 }
+
+.info-container {
+	margin: 5vw 20vw 0 20vw;
+}
