@@ -187,15 +187,18 @@ margin: 0 0 24px 0;
 	display: flex;
 }
 
+@media only screen and (min-width: 768px) {
 .welcome-image-2 {
 	flex: 1;
 	margin: -10% 0 0 2vw;
-}
-
-.welcome-image-2 img {
+	background-image: url(img/print-hair.jpg);
+	background-color: var(--welcome-color);
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
 	border: 1.5vw solid white;
 	box-shadow: 0vw 0vw 12px 5px var(--welcome-color);
-}
+}}
 
 .welcome-info-container {
 	display: flex;
