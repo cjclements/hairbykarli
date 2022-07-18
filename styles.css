@@ -5,6 +5,7 @@
 	--tan: #e1dac9;
 	--link-color: var(--pink);
 	--welcome-color: var(--pink);
+	--mission-color:var(--green)
 }
 
 @font-face {
@@ -212,4 +213,8 @@ flex-direction: column;
 
 .info-container {
 	padding: 5vw 20vw 0 20vw;
+}
+
+.mission {
+	background-color: var(--mission-color);
 }
