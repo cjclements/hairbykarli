@@ -30,7 +30,7 @@ body {
 	font-size: 18px;
 }
 
-ul {
+.menu-items ul {
 	list-style-type: none;
 	margin: 0;
 }
@@ -223,4 +223,13 @@ margin: 0 0 24px 0;
 
 .about {
 	background-color: var(--about-color);
+}
+
+.recent-classes{
+	display: flex;
+	align-items:;
+}
+
+.recent-classes ul {
+	flex: 1;
 }
