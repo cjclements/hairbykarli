@@ -191,7 +191,7 @@ flex-direction: column;
 
 .welcome-image-2 img {
 	border: 1.5vw solid white;
-	box-shadow: 1vw 1vw 12px var(--welcome-color);
+	box-shadow: 0vw 0vw 12px 5px var(--welcome-color);
 }
 
 .welcome-info-container {
