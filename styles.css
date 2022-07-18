@@ -6,6 +6,7 @@
 	--link-color: var(--pink);
 	--welcome-color: var(--pink);
 	--mission-color:var(--green)
+	--about-color: var(--blue);
 }
 
 @font-face {
@@ -218,4 +219,8 @@ margin: 0 0 24px 0;
 
 .mission {
 	background-color: var(--mission-color);
+}
+
+.about {
+	background-color: var(--about-color);
 }
