@@ -8,6 +8,7 @@
 	--mission-color: var(--green);
 	--colab-color: var(--blue);
 	--about-color: var(--blue);
+	--copyright-color:var(--blue)
 }
 
 @font-face {
@@ -255,10 +256,15 @@ background-position: top;
 	flex: 1;
 }
 
+.footer {
+	
+}
+
 .copyright {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 20px;
+	padding: 20px;
 	font-size: 0.75em;
+	background-color: var(--copyright-color);
 }
