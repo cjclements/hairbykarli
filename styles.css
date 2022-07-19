@@ -8,7 +8,7 @@
 	--mission-color: var(--green);
 	--colab-color: var(--blue);
 	--about-color: var(--blue);
-	--copyright-color:var(--blue)
+	--copyright-color: var(--blue)
 }
 
 @font-face {
@@ -257,23 +257,37 @@ background-position: top;
 	flex: 1;
 }
 
-.footer .menu-items {
+.footer > div > div {
 	display: flex;
 	justify-content: center;
-	padding: 12px 0;
+	margin-top: 10px;
+}
+.footer-address {
+	font-size: 0.75em;
+}
+
+.footer-phone {
+	font-size: 0.75em;
+}
+
+.social-links {
+	font-size: 1.25rem;
+	gap: 8px;
+	padding: 4px 0;
 }
 
 .footer .menu-items ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
+	gap: 8px;
+	font-size: 0.75em;
 }
 
 .copyright {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	font-size: 0.75em;
 	background-color: var(--copyright-color);
+	font-size: 0.75em;
 }
