@@ -254,3 +254,11 @@ background-position: top;
 .recent-classes ul {
 	flex: 1;
 }
+
+.copyright {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	font-size: 0.75em;
+}
