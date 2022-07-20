@@ -221,6 +221,30 @@ margin: 0 0 42px 0;
 	border: 2px solid var(--welcome-color);
 }
 
+/* Full Template */
+
+.full-template {
+	background-color: var(--full-color);
+	background-image:url(img/karli-downtown.jpg);
+	display: inline-block;
+	background-size: cover;
+	background-position: top;
+}
+	
+.full-info {
+	background-color: #ffffffcc;
+	padding: 3vw 5vw 5vw 5vw;
+	margin: 10vw 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+	
+.full-info button:hover {
+	border-color: var(--full-color);
+}
+
+
 /* Feature Template */
 
 .feature-template {
@@ -236,7 +260,7 @@ margin: 0 0 42px 0;
 	flex: 1;
 	width: 100px;
 	/* margin: 24px 24px 24px 24px; */
-	max-width: 500px;
+	max-width: 400px;
 	min-width: 300px;
 }
 
