@@ -284,7 +284,7 @@ margin: 0 0 2px 0;
 .feature-template {
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap-reverse;
+	flex-flow: row-reverse wrap-reverse;
 	align-items: center;
 	margin: 42px 6vw;
 	gap: 24px;
