@@ -181,7 +181,7 @@ button {
 .welcome-container {
 display: flex;
 flex-direction: column;
-margin: 0 0 24px 0;
+margin: 0 0 42px 0;
 }
 
 .welcome-image-1 img,
@@ -213,7 +213,7 @@ margin: 0 0 24px 0;
 	flex-direction: column;
 	align-items: center;
 	flex: 1;
-	margin: 12px 3vw 0 4.5vw;
+	margin: 12px 6vw 0 6vw;
 	max-width: 500px;
 }
 
@@ -221,14 +221,46 @@ margin: 0 0 24px 0;
 	border: 2px solid var(--welcome-color);
 }
 
-.info-container {
-	padding: 24px 8vw 36px 8vw;
+/* Feature Template */
+
+.feature-template {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	margin: 42px 6vw;
+	gap: 24px;
 }
 
-@media only screen and (min-width: 768px) {
-.info-container {
-	padding: 24px 20vw 36px 20vw;
-}}
+.feature-image {
+	flex: 1;
+	width: 100px;
+	/* margin: 24px 24px 24px 24px; */
+	max-width: 500px;
+	min-width: 300px;
+}
+
+.feature-image img{
+	max-width:100%;
+	padding: 1.5vw;
+	border: 2px solid #000;
+}
+
+.feature-info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* margin: 24px 24px 24px 24px; */
+	max-width: 500px;
+	min-width: 300px;
+}
+
+.feature-info button:hover {
+	border: 2px solid var(--template-color);
+}
+
+/* Colab */
 
 .colab {
 background-color: var(--colab-color);
@@ -258,6 +290,16 @@ background-position: top;
 .recent-classes ul {
 	flex: 1;
 }
+
+/* Footer */
+.footer-container {
+	padding: 24px 8vw 36px 8vw;
+}
+
+@media only screen and (min-width: 768px) {
+.footer-container {
+	padding: 24px 20vw 36px 20vw;
+}}
 
 .footer > div > div {
 	display: flex;
