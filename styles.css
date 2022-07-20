@@ -7,7 +7,7 @@
 	--welcome-color: var(--pink);
 	--booking-color: var(--pink);
 	--mission-color: var(--green);
-	--colab-color: var(--blue);
+	--care-color: var(--blue);
 	--about-color: var(--blue);
 	--copyright-color: var(--blue)
 }
@@ -318,17 +318,17 @@ margin: 0 0 2px 0;
 	border: 2px solid var(--template-color);
 }
 
-/* Colab */
+/* Hair Care */
 
-.colab {
-background-color: var(--colab-color);
+.care {
+background-color: var(--care-color);
 background-image:url(img/maria-nila-bg.webp);
 display: inline-block;
 background-size: cover;
 background-position: top;
 }
 
-.colab-info-container {
+.care-info-container {
 	background-color: #ffffffcc;
 	padding: 3vw 5vw 5vw 5vw;
 	margin: 10vw 10vw;
@@ -337,8 +337,8 @@ background-position: top;
 	align-items: center;
 }
 
-.colab-info-container button:hover {
-	border-color: var(--colab-color);
+.care-info-container button:hover {
+	border-color: var(--care-color);
 }
 
 .about {
