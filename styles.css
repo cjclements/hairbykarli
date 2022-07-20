@@ -35,7 +35,7 @@ body {
 	font-size: 18px;
 }
 
-.menu-items ul {
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -76,19 +76,12 @@ button {
 	margin: 20px 0 0 0;
 }
 
-.navbar {
-	width: 100%;
-	height: 156px;
-}
-
-.menu-container ul li {
-	margin-bottom: 18px;
-	font-size: 36px;
-	font-weight: 900;
+.logo {
+margin: 24px 24px;
 }
 
 .logo a img {
-	height:144px;
+	height:100px;
 }
 
 .nav-container .hamburger-lines {
@@ -96,8 +89,8 @@ button {
 	height: 26px;
 	width: 32px;
 	position: absolute;
-	top: 17px;
-	right: 20px;
+	top: 32px;
+	right: 32px;
 	z-index: 2;
 	display: flex;
 	flex-direction: column;
@@ -116,8 +109,8 @@ button {
 	display: block;
 	height: 40px;
 	width: 40px;
-	top: 6px;
-	right: 11px;
+	top: 24px;
+	right: 26px;
 	z-index: 5;
 	opacity: 0;
 	cursor: pointer;
@@ -143,6 +136,13 @@ button {
 	justify-content: center;
 	margin: auto;
 }
+.menu-container ul li {
+	text-transform: uppercase;
+	margin-bottom: 3vh;
+	font-size: 36px;
+	font-weight: 600;
+}
+
 
 .nav-container .hamburger-lines .line1 {
 	transform-origin: 0% 0%;
@@ -178,6 +178,8 @@ button {
 	opacity: 1;
 	transition:  opacity .7s;
 }
+
+/* Welcome */
 
 .welcome-container {
 display: flex;
