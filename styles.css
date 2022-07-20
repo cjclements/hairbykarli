@@ -321,11 +321,15 @@ margin: 0 0 2px 0;
 /* Hair Care */
 
 .care {
-background-color: var(--care-color);
-background-image:url(img/maria-nila-bg.webp);
-display: inline-block;
-background-size: cover;
-background-position: top;
+	background-color: var(--care-color);
+	background-image:url(img/maria-nila-bg.webp);
+	display: inline-block;
+	background-size: cover;
+	background-position: top;
+}
+
+.care h1 {
+	text-align: left;
 }
 
 .care-info-container {
