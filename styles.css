@@ -32,7 +32,7 @@ body {
 	flex-direction: column;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
-	font-size: 18px;
+	font-size: 1.2rem;
 }
 
 ul {
@@ -67,7 +67,7 @@ h3 {
 button {
 	padding: 8px 32px;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 1.25rem;
 	border: 2px solid #000;
 	color: #000;
 	background-color: #00000000;
@@ -139,7 +139,7 @@ margin: 24px 24px;
 .menu-container ul li {
 	text-transform: uppercase;
 	margin-bottom: 3vh;
-	font-size: 36px;
+	font-size: 2rem;
 	font-weight: 600;
 }
 
@@ -365,11 +365,11 @@ background-position: top;
 	margin-top: 10px;
 }
 .footer-address {
-	font-size: 0.75em;
+	font-size: 0.9rem;
 }
 
 .footer-phone {
-	font-size: 0.75em;
+	font-size: 0.9rem;
 }
 
 .social-links {
@@ -383,13 +383,14 @@ background-position: top;
     justify-content: center;
     width: 100%;
 	gap: 20px;
-	font-size: 0.75em;
+	font-size: 1rem;
 }
 
 .copyright {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	padding: 20px;
 	background-color: var(--copyright-color);
-	font-size: 0.75em;
+	font-size: 0.9rem;
 }
