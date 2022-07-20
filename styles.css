@@ -5,6 +5,7 @@
 	--tan: #e1dac9;
 	--link-color: var(--pink);
 	--welcome-color: var(--pink);
+	--booking-color: var(--pink);
 	--mission-color: var(--green);
 	--colab-color: var(--blue);
 	--about-color: var(--blue);
@@ -221,9 +222,41 @@ margin: 0 0 42px 0;
 	border: 2px solid var(--welcome-color);
 }
 
-/* Full Template */
+/* Booking */
 
-.full-template {
+.booking {
+	background-color: var(--text-phone-color);
+	background-image:url(img/karli-downtown.jpg);
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+}
+	
+.booking-info {
+	background-color: #ffffffcc;
+	padding: 18px 36px 24px 32px;
+	margin: 3vw 0 20vw 3vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	width: fit-content;
+}
+
+.booking-info h2,
+.booking-info p,
+.booking-info button {
+margin: 0 0 2px 0;
+}
+	
+.booking-info button:hover {
+	border-color: var(--booking-color);
+}
+
+/* Full-sized background template */
+
+/* .full-template {
 	background-color: var(--full-color);
 	background-image:url(img/karli-downtown.jpg);
 	display: inline-block;
@@ -242,8 +275,7 @@ margin: 0 0 42px 0;
 	
 .full-info button:hover {
 	border-color: var(--full-color);
-}
-
+} */
 
 /* Feature Template */
 
