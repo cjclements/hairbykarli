@@ -398,3 +398,18 @@ margin: 0 0 2px 0;
 	background-color: var(--copyright-color);
 	font-size: 0.9rem;
 }
+
+.menu-prices dt {
+	display: block;
+	float: left;
+	width: 60vw;
+	text-align: right;
+  }
+  
+  .menu-prices dt:after {
+	content: none;
+  }
+  
+  .menu-prices dd {
+	display: block;
+  }
