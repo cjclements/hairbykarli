@@ -402,9 +402,17 @@ margin: 0 0 2px 0;
 .menu-prices dt {
 	display: block;
 	float: left;
-	width: 60vw;
+	width: 70vw;
 	text-align: right;
   }
+  
+@media only screen and (min-width: 768px) {
+	.menu-prices dt {
+		display: block;
+		float: left;
+		width: 60vw;
+		text-align: right;
+}}
   
   .menu-prices dt:after {
 	content: none;
@@ -412,4 +420,8 @@ margin: 0 0 2px 0;
   
   .menu-prices dd {
 	display: block;
+  }
+
+  .menu-prices p {
+	text-align: center;
   }
