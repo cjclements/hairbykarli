@@ -70,7 +70,7 @@
         </div>
 		<h1>Contact Karli</h1>
 		<div class="contact-container">
-			<form name="contact" method="POST" data-netlify="true">
+			<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
 				<div class="input-box">
 					<input type="text" id="name" required>
 					<label for="name">Full Name</label>
@@ -87,6 +87,7 @@
 					<textarea id="message" rows="8" required></textarea>
 					<label for="message">Your Message</label>
 				</div>
+				<div data-netlify-recaptcha="true"></div>
 				<button type="submit">Submit</button>
 			</form>
 		</div>
