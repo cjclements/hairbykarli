@@ -9,7 +9,8 @@
 	--mission-color: var(--green);
 	--care-color: var(--blue);
 	--about-color: var(--blue);
-	--copyright-color: var(--blue)
+	--copyright-color: var(--blue);
+	--contact-color: var(--pink);
 }
 
 @font-face {
@@ -399,6 +400,8 @@ margin: 0 0 2px 0;
 	font-size: 0.9rem;
 }
 
+/* Menu */
+
 .menu-prices dt {
 	display: block;
 	float: left;
@@ -425,3 +428,56 @@ margin: 0 0 2px 0;
   .menu-prices p {
 	text-align: center;
   }
+
+
+
+
+
+  .contact-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  form {
+	width: 90%;
+	max-width: 400px;
+  }
+
+  .input-box {
+	margin: 0 0 30px;
+	position: relative;
+  }
+
+input,
+textarea {
+width: 100%;
+padding: 10px;
+outline: 0;
+border: 2px solid #000;
+background: #00000000;
+}
+
+label {
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	cursor: text;
+	transition: ease 0.2s
+}
+
+form button:hover,
+.contact-booking button:hover {
+	border-color: var(--contact-color);
+} 
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+	top: -35px;
+	font-size: .9rem;
+}

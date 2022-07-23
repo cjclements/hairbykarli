@@ -54,22 +54,43 @@
 			</div>
 		</nav>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6560275909565!2d-87.62726678491825!3d41.90025407200697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd37a5bf35d9d%3A0x141c595c19c27848!2sHair%20By%20Karli!5e0!3m2!1sen!2sus!4v1658522704823!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6560275909565!2d-87.62726678491825!3d41.90025407200697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd37a5bf35d9d%3A0x141c595c19c27848!2sHair%20By%20Karli!5e0!3m2!1sen!2sus!4v1658522704823!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
         <div class="contact-info">
-            <div class="Booking">
+            <div class="contact-booking">
                 <h1>Booking</h1>
                 <p>To book an appointment, please follow the link below or text/call 312-646-0317 with any questions.</p>
                 <button onclick="window.location.href='https://square.site/book/X7X75ZEZH37V8/hair-by-karli';">Book now</button>
             </div>
 
-            <div class="Location">
+            <div class="contact-location">
                 <h1>Location</h1>
                 <p>Hair By Karli is located in Phenix Salon Suites at 100 E Walton St near the corner of N Michigan Ave & E Walton St. If the entrance is locked, ring the doorbell and someone will let you in. Follow the signs to Suite 126, near the back of the building.</p>
             </div>
         </div>
+		<h1>Contact Karli</h1>
+		<div class="contact-container">
+			<form name="contact" method="POST" data-netlify="true">
+				<div class="input-box">
+					<input type="text" id="name" required>
+					<label for="name">Full Name</label>
+				</div>
+				<div class="input-box">
+					<input type="text" id="email" required>
+					<label for="email">Email</label>
+				</div>
+				<div class="input-box">
+					<input type="text" id="tel" required>
+					<label for="tel">Phone</label>
+				</div>
+				<div class="input-box">
+					<textarea id="message" rows="8" required></textarea>
+					<label for="message">Your Message</label>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
 
-        
 
         <div class="footer">
 			<div class="footer-container">
